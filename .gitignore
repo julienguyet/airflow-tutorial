@@ -160,3 +160,7 @@ cython_debug/
 #.idea/
 .DS_Store
 data/
+airflow/dags/full_data
+airflow/dags/raw_data
+airflow/dags/good_data
+airflow/dags/bad_data
