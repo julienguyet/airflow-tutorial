@@ -57,6 +57,7 @@ astro dev start
 ```
 
 You should see something like this:
+
 <img width="650" alt="astro_start_up" src="https://github.com/julienguyet/airflow-tutorial/assets/55974674/8397b4c2-dc32-4032-988b-7f0752c5a31f">
 
 This will start Airflow and a new tab will open in your browser. Connect by using the default credentials (admin / admin). 
