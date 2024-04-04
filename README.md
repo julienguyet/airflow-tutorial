@@ -1,4 +1,4 @@
-# airflow-tutorial
+# Airflow Tutorial
 A Git Repository to demonstrate a simple data validation job using Airflow. If you would like to replicate this environment on your own machine, you can follow the steps below. 
 
 ## 1. Install Docker
@@ -27,3 +27,6 @@ astro dev init
 ```
 
 You should now see new files and folders added to the airflow directory. Please note that by default astro will add the airflow folder to the .gitignore file.
+
+## 4. Create the Airflow DAG
+In your aiflow directory, go to the 'dags' folder and save here the 'data_validation_dag.py' file available at: [dsp-project-JPS/gx/validation_job](https://github.com/julienguyet/airflow-tutorial/blob/main/airflow/dags/data_validation_dag.py)
