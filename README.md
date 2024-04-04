@@ -56,5 +56,8 @@ In your terminal, at the level of the airlfow folder, run the below:
 astro dev start
 ```
 
+You should see something like this:
+<img width="650" alt="astro_start_up" src="https://github.com/julienguyet/airflow-tutorial/assets/55974674/8397b4c2-dc32-4032-988b-7f0752c5a31f">
+
 This will start Airflow and a new tab will open in your browser. Connect by using the default credentials (admin / admin). 
 You should see the dag in the list on the first page. Click on the left button to activate it and voilà! You now have a dag running every one minute to check the quality of your data!
