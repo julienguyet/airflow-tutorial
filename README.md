@@ -1,5 +1,6 @@
 # Airflow Tutorial
-A Git Repository to demonstrate a simple data validation job using Airflow. If you would like to replicate this environment on your own machine, you can follow the steps below. 
+A Git Repository to demonstrate a simple data validation job using Airflow: we will run an airflow job every one minute to check the data quality of a file and remove bad data from our ingestion pipeline.
+If you would like to replicate this environment on your own machine, you can follow the steps below. 
 
 ## 1. Install Docker
 The first thing to do is to install docker (if already installed, you can move to step 2).
