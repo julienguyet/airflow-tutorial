@@ -60,5 +60,14 @@ You should see something like this:
 
 <img width="650" alt="astro_start_up" src="https://github.com/julienguyet/airflow-tutorial/assets/55974674/8397b4c2-dc32-4032-988b-7f0752c5a31f">
 
+
 This will start Airflow and a new tab will open in your browser. Connect by using the default credentials (admin / admin). 
-You should see the dag in the list on the first page. Click on the left button to activate it and voilà! You now have a dag running every one minute to check the quality of your data!
+You should see the dag in the list on the first page:
+
+<img width="1511" alt="airflow_home_page" src="https://github.com/julienguyet/airflow-tutorial/assets/55974674/28b28a5a-4795-43bd-a6e6-2be2f674f9b9">
+
+
+Click on the left button to activate it and voilà: You now have a dag running every one minute to check the quality of your data!
+You can also get more details by clicking on the DAG and go to its graph tab:
+
+<img width="1196" alt="airflow_workflow" src="https://github.com/julienguyet/airflow-tutorial/assets/55974674/ffc44314-752e-44d0-b729-2f0364383691">
