@@ -10,8 +10,20 @@ Now, we will install Astro which is an environment manager for Airflow and Docke
 Go to below link and follow instructions based on your OS. Once installation is finished move to step 3. 
 https://docs.astronomer.io/astro/cli/install-cli
 
+## 3. Set up Astro
+Move to your directory where you created your repo and at the root, in terminal, do in order:
+
 ```
-function test() {
-  console.log("notice the blank line before this function?");
-}
+mkdir airflow
 ```
+
+```
+cd airflow
+```
+
+Once you are inside the airflow directory execute the below command. It will initialize your Astro environment:
+```
+astro dev init
+```
+
+You should now see new files and folders added to the airflow directory. Please note that by default astro will add the airflow folder to the .gitignore file.
