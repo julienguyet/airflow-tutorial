@@ -43,8 +43,9 @@ mkdir good_data
 ```
 
 Then, you can use the code from the generate_files_final.ipynb file (available here: https://github.com/julienguyet/airflow-tutorial/blob/main/notebooks/generate_files_final.ipynb). 
-This code creates data partitions including some issues in it (so we fake real life problems such as missing data in a ML pipeline). Do not forget to update the paths based on your own set up. 
-Please note the data used was from the Walmart Sales Prediction competition on Kaggle. You can download the it here: https://www.kaggle.com/datasets/aslanahmedov/walmart-sales-forecast
+This code creates data partitions including some issues in it (so we fake real life problems such as missing data in a ML pipeline). 
+Do not forget to update the paths based on your own set up. 
+Please note that the data used was from the Walmart Sales Prediction competition on Kaggle. You can download the it here: https://www.kaggle.com/datasets/aslanahmedov/walmart-sales-forecast
 
 If you would like to work with your own dataset, please note you will need to update the Great Expectations rules defined in the Airflow Dag (line 34 and 35).
 
