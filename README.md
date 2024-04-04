@@ -31,6 +31,23 @@ You should now see new files and folders added to the airflow directory. Please 
 ## 4. Create the Airflow DAG
 In your aiflow directory, go to the 'dags' folder and save here the 'data_validation_dag.py' file available at: https://github.com/julienguyet/airflow-tutorial/blob/main/airflow/dags/data_validation_dag.py
 
+After that, in the dag folder execute the below commands:
+```
+mkdir raw_data
+```
+```
+mkdir bad_data
+```
+```
+mkdir good_data
+```
+
+Then, you can use the code from the generate_files_final.ipynb file (available here: https://github.com/julienguyet/airflow-tutorial/blob/main/notebooks/generate_files_final.ipynb). 
+This code creates data partitions including some issues in it (so we fake real life problems such as missing data in a ML pipeline). Do not forget to update the paths based on your own set up. 
+Please note the data used was from the Walmart Sales Prediction competition on Kaggle. You can download the it here: https://www.kaggle.com/datasets/aslanahmedov/walmart-sales-forecast
+
+If you would like to work with your own dataset, please note you will need to update the Great Expectations rules defined in the Airflow Dag (line 34 and 35).
+
 ## 5. Execute the DAG
 In your terminal, at the level of the airlfow folder, run the below:
 
